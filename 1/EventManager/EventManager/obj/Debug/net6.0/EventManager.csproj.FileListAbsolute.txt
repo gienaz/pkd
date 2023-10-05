@@ -1,0 +1,44 @@
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.exe
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.deps.json
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.runtimeconfig.json
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.dll
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.pdb
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.csproj.AssemblyReference.cache
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfoInputs.cache
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfo.cs
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.csproj.CoreCompileInputs.cache
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.dll
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\refint\EventManager.dll
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.pdb
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.genruntimeconfig.cache
+C:\student\Петухов 121\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\ref\EventManager.dll
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.exe
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.deps.json
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.runtimeconfig.json
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.dll
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.pdb
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfoInputs.cache
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfo.cs
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.csproj.CoreCompileInputs.cache
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.dll
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\refint\EventManager.dll
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.pdb
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.genruntimeconfig.cache
+D:\NPK\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\ref\EventManager.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.exe
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.deps.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.runtimeconfig.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\bin\Debug\net6.0\EventManager.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\refint\EventManager.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\EventManager.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\1\EventManager\EventManager\obj\Debug\net6.0\ref\EventManager.dll

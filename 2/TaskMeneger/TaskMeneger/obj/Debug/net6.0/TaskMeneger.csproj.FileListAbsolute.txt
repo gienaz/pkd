@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\bin\Debug\net6.0\TaskMeneger.exe
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\bin\Debug\net6.0\TaskMeneger.deps.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\bin\Debug\net6.0\TaskMeneger.runtimeconfig.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\bin\Debug\net6.0\TaskMeneger.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\bin\Debug\net6.0\TaskMeneger.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\refint\TaskMeneger.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\TaskMeneger.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\2\TaskMeneger\TaskMeneger\obj\Debug\net6.0\ref\TaskMeneger.dll

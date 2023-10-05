@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\bin\Debug\net6.0\TextAnalis.exe
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\bin\Debug\net6.0\TextAnalis.deps.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\bin\Debug\net6.0\TextAnalis.runtimeconfig.json
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\bin\Debug\net6.0\TextAnalis.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\bin\Debug\net6.0\TextAnalis.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\refint\TextAnalis.dll
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.pdb
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\TextAnalis.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\3kurs\pkd\4\TextAnalis\TextAnalis\obj\Debug\net6.0\ref\TextAnalis.dll
