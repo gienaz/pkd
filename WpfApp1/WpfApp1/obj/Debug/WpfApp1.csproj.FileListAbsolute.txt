@@ -1,0 +1,15 @@
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Student\Петухов 121\pkd\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

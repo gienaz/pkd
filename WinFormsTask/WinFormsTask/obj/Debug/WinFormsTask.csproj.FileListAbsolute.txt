@@ -1,0 +1,10 @@
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\bin\Debug\WinFormsTask.exe.config
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\bin\Debug\WinFormsTask.exe
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\bin\Debug\WinFormsTask.pdb
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.Form1.resources
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.exe
+C:\Student\Петухов 121\pkd\WinFormsTask\WinFormsTask\obj\Debug\WinFormsTask.pdb
