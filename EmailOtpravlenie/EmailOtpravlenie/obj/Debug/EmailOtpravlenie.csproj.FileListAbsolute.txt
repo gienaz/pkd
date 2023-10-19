@@ -1,0 +1,15 @@
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\App.g.cs
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie_MarkupCompile.cache
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\MainWindow.g.cs
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie_MarkupCompile.lref
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\bin\Debug\EmailOtpravlenie.exe.config
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\bin\Debug\EmailOtpravlenie.exe
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\bin\Debug\EmailOtpravlenie.pdb
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\MainWindow.baml
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.g.resources
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.exe
+C:\Student\Петухов 121\pkd\EmailOtpravlenie\EmailOtpravlenie\obj\Debug\EmailOtpravlenie.pdb
