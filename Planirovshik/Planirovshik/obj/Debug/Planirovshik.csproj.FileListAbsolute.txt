@@ -1,0 +1,17 @@
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.exe.config
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.exe
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.pdb
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\MainWindow.g.cs
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\App.g.cs
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik_MarkupCompile.cache
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik_MarkupCompile.lref
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\MainWindow.baml
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.g.resources
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.exe
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.pdb
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.g.cs
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.baml
