@@ -20,21 +20,22 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="15" TextAlignment="Center" LineHeight="Auto" >Отправитель</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto" >Отправитель</TextBlock>
         <TextBox x:Name="TextBox" Grid.Row="0" Grid.Column="1" Text="" TextChanged="TextBox_TextChanged" />
 
-        <TextBlock Grid.Row="1" Grid.Column="0" FontSize="15" TextAlignment="Center" LineHeight="Auto">Адрес отправителя</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto">Адрес отправителя</TextBlock>
         <TextBox x:Name="TextBox1" Grid.Row="1" Grid.Column="1" Text="" TextChanged="TextBox1_TextChanged"/>
 
-        <TextBlock Grid.Row="2" Grid.Column="0" FontSize="15" TextAlignment="Center" LineHeight="Auto">Получатель</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto">Получатель</TextBlock>
         <TextBox x:Name="TextBox2" Grid.Row="2" Grid.Column="1" Text="" TextChanged="TextBox2_TextChanged"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="15" TextAlignment="Center" LineHeight="Auto">Адрес получателя</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto">Адрес получателя</TextBlock>
         <TextBox x:Name="TextBox3" Grid.Row="3" Grid.Column="1" Text="" TextChanged="TextBox3_TextChanged"/>
 
-        <TextBlock Grid.Row="4" Grid.Column="1" FontSize="15" TextAlignment="Center" LineHeight="Auto">Вид отправления</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto">Вид отправления</TextBlock>
 
         <ComboBox x:Name="ComboBox" Grid.Row="4" Grid.Column="0" SelectionChanged="ComboBox_SelectionChanged" IsEditable="True" >
             <ComboBoxItem>Не выбрано</ComboBoxItem>
@@ -44,10 +45,13 @@
         </ComboBox>
 
 
+        <TextBlock Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" FontSize="15" TextAlignment="Center" LineHeight="Auto">Адрес эл.почты</TextBlock>
+        <TextBox x:Name="TextBox4" Grid.Row="6"  Grid.Column="1" Text="" TextChanged="TextBox4_TextChanged"/>
 
-
-        <Label x:Name="Cost" Content="Итоговая цена: " HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Bottom" Height="54" Width="250"/>
-        <CheckBox x:Name="toFar" Content="За границу" HorizontalAlignment="Center" Margin="0,15,0,0" Grid.Row="5" VerticalAlignment="Top" Checked="toFar_Checked"/>
+        <Label x:Name="Cost" Content="Итоговая цена: " VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="7"/>
+        <CheckBox x:Name="toFar" Content="За границу" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Checked="toFar_Checked"/>
+        
+        <Button x:Name="Button" Grid.Row="7"  Grid.Column="1" Content="Send" Height="54" VerticalAlignment="Center" Click="Button_Click"/>
 
 
 

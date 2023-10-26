@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="501">
+    <Grid Margin="0,0,10,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
@@ -21,26 +21,26 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <TextBox FontSize="40" TextAlignment="Right" x:Name="TB1" Grid.Row="0" Grid.ColumnSpan="4" TextChanged="TB1_TextChanged" SelectionOpacity="-2"/>
+        <TextBox FontSize="40" TextAlignment="Right" x:Name="TB1" Grid.Row="0" Grid.ColumnSpan="4" TextChanged="TB1_TextChanged" SelectionOpacity="-2" Margin="10,6,10,82" Grid.RowSpan="2"/>
 
-        <Button x:Name="BtnText" Grid.Row="1" Grid.Column="0" Click="BtnText_Click">1</Button>
-        <Button x:Name="button1" Grid.Row="1" Grid.Column="1" Click="button1_Click">2</Button>
-        <Button x:Name="button3" Grid.Row="1" Grid.Column="2" Click="button3_Click">3</Button>
-        <Button x:Name="button2" Grid.Row="1" Grid.Column="3" Click="button2_Click">+</Button>
+        <Button x:Name="BtnText" Grid.Row="1" Grid.Column="0" Click="BtnText_Click" Margin="14,10,20,11">1</Button>
+        <Button x:Name="button1" Grid.Row="1" Click="button1_Click" Margin="2,10,16,11" Grid.Column="1">2</Button>
+        <Button x:Name="button3" Grid.Row="1" Grid.Column="2" Click="button3_Click" Margin="5,10,11,11">3</Button>
+        <Button x:Name="button2" Grid.Row="1" Grid.Column="3" Click="button2_Click" Margin="9,10,10,11">+</Button>
 
-        <Button x:Name="button4" Grid.Row="2" Grid.Column="0" Click="button4_Click">4</Button>
-        <Button x:Name="button5" Grid.Row="2" Grid.Column="1" Click="button5_Click">5</Button>
-        <Button x:Name="button6" Grid.Row="2" Grid.Column="2" Click="button6_Click">6</Button>
-        <Button x:Name="btnminus" Grid.Row="2" Grid.Column="3" Click="btnminus_Click">-</Button>
+        <Button x:Name="button4" Grid.Row="2" Grid.Column="0" Click="button4_Click" Margin="14,10,18,10">4</Button>
+        <Button x:Name="button5" Grid.Row="2" Click="button5_Click" Margin="2,10,16,10" Grid.Column="1">5</Button>
+        <Button x:Name="button6" Grid.Row="2" Grid.Column="2" Click="button6_Click" Margin="5,10,11,10">6</Button>
+        <Button x:Name="btnminus" Grid.Row="2" Grid.Column="3" Click="btnminus_Click" Margin="9,10,10,10">-</Button>
 
-        <Button x:Name="button8" Grid.Row="3" Grid.Column="0" Click="button8_Click">7</Button>
-        <Button x:Name="btn8" Grid.Row="3" Grid.Column="1" Click="btn8_Click">8</Button>
-        <Button x:Name="btn9" Grid.Row="3" Grid.Column="2" Click="btn9_Click">9</Button>
-        <Button x:Name="btnumn" Grid.Row="3" Grid.Column="3" Click="btnumn_Click">*</Button>
+        <Button x:Name="button8" Grid.Row="3" Grid.Column="0" Click="button8_Click" Margin="14,10,18,10">7</Button>
+        <Button x:Name="btn8" Grid.Row="3" Click="btn8_Click" Margin="2,10,16,10" Grid.Column="1">8</Button>
+        <Button x:Name="btn9" Grid.Row="3" Grid.Column="2" Click="btn9_Click" Margin="5,10,11,10">9</Button>
+        <Button x:Name="btnumn" Grid.Row="3" Grid.Column="3" Click="btnumn_Click" Margin="9,10,10,10">*</Button>
 
-        <Button x:Name="buttonClear" Grid.Row="4" Grid.Column="0" Click="buttonClear_Click">C</Button>
-        <Button x:Name="button11" Grid.Row="4" Grid.Column="1" Click="button11_Click">0</Button>
-        <Button x:Name="button9" Grid.Row="4" Grid.Column="2" Click="button9_Click">=</Button>
-        <Button x:Name="btndel" Grid.Row="4" Grid.Column="3" Click="btndel_Click">/</Button>
+        <Button x:Name="buttonClear" Grid.Row="4" Grid.Column="0" Click="buttonClear_Click" Margin="14,10,18,10">C</Button>
+        <Button x:Name="button11" Grid.Row="4" Click="button11_Click" Margin="2,10,16,10" Grid.Column="1">0</Button>
+        <Button x:Name="button9" Grid.Row="4" Grid.Column="2" Click="button9_Click" Margin="5,10,11,10">=</Button>
+        <Button x:Name="btndel" Grid.Row="4" Grid.Column="3" Click="btndel_Click" Margin="9,10,10,10">/</Button>
     </Grid>
 </Window>
