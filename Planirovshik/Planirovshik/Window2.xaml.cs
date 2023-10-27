@@ -23,8 +23,8 @@ namespace Planirovshik
         {
             InitializeComponent();
             ComboBox_Priority.SelectedIndex = 2;
-            Date.SelectedDate = DateTime.Now;
             task = new Task();
+            btn_Submit.IsEnabled = false;
         }
 
         public Task Dialogue
@@ -35,7 +35,7 @@ namespace Planirovshik
         bool CheckIfCan()
         {
             bool temp = false;
-            if(Add_Name.Text.Length > 0 && Add_Desc.Text.Length > 0)
+            if (Add_Name.Text.Length > 0 && Add_Desc.Text.Length > 0) temp = true;
 
             return temp;
         }
@@ -43,28 +43,63 @@ namespace Planirovshik
         private void Add_Name_TextChanged(object sender, TextChangedEventArgs e)
         {
             task.name = Add_Name.Text;
+            if (CheckIfCan())
+            {
+                btn_Submit.IsEnabled = true;
+            }
+            else
+            {
+                btn_Submit.IsEnabled = false;
+            }
         }
         private void ComboBox_Priority_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ////////////////
+            if(task != null)
+            task.priority = ComboBox_Priority.SelectedIndex;
         }
-        private void Date_Changed(object sender, SelectedCellsChangedEventArgs e)
+        bool deadlineSet = false;
+        private void Date_Changed(object sender, SelectionChangedEventArgs e)
         {
-            task.deadline = Date.Text;
+
+            if (task != null)
+            {
+                task.deadline = Date.Text;
+                deadlineSet = true;
+
+                if (CheckIfCan())
+                {
+                    btn_Submit.IsEnabled = true;
+                }
+                else
+                {
+                    btn_Submit.IsEnabled = false;
+                }
+            }
         }
         private void Add_Desc_TextChanged(object sender, TextChangedEventArgs e)
         {
+            if (task != null)
             task.description = Add_Desc.Text;
+            if (CheckIfCan())
+            {
+                btn_Submit.IsEnabled = true;
+            }
+            else
+            {
+                btn_Submit.IsEnabled = false;
+            }
         }
 
         private void btn_Submit_Click(object sender, RoutedEventArgs e)
         {
-
+            //this.Close();
+            this.DialogResult = true;
         }
 
         private void btn_Cancel_Click(object sender, RoutedEventArgs e)
         {
-
+            task.name = "ABORTED";
+            //this.Close();
         }
     }
 }

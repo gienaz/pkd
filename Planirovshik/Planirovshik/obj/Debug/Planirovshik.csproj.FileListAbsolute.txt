@@ -15,3 +15,20 @@ C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovsh
 C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.pdb
 C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.g.cs
 C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.baml
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.AssemblyReference.cache
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.g.cs
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\MainWindow.g.cs
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\App.g.cs
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik_MarkupCompile.cache
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik_MarkupCompile.lref
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.exe
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.pdb
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.exe.config
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.exe
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\bin\Debug\Planirovshik.pdb
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Window2.baml
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\MainWindow.baml
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.g.resources
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.Properties.Resources.resources
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.GenerateResource.cache
+D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.CoreCompileInputs.cache
