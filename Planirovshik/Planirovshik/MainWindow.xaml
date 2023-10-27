@@ -17,24 +17,25 @@
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
 
-        <ListView x:Name="listView1" Grid.Row="2" Grid.ColumnSpan="3">
+        <ListView x:Name="listView" Grid.Row="2" Grid.ColumnSpan="3">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Статус" Width="50">
+                    <GridViewColumn Header="status" Width="50">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <CheckBox IsChecked="{Binding IsCompleted, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Название" Width="100"/>
-                    <GridViewColumn Header="Приоритет" Width="100"/>
-                    <GridViewColumn Header="Дедлайн" Width="100"/>
-                    <GridViewColumn Header="Описание" Width="200"/>
+                    <GridViewColumn Header="name" Width="100"/>
+                    <GridViewColumn Header="priority" Width="100"/>
+                    <GridViewColumn Header="deadline" Width="100"/>
+                    <GridViewColumn Header="description"/>
                 </GridView>
             </ListView.View>
         </ListView>
         <Button x:Name="NewTask" Content="Добавить новую задачу" Grid.Row="0" Grid.Column="0" Click="NewTask_Click"/>
+        <Button x:Name="Refresh" Content="Обновить список" Grid.Row="0" Grid.Column="2" Click="Refresh_Click"/>
 
 
     </Grid>

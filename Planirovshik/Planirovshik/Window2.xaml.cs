@@ -24,6 +24,8 @@ namespace Planirovshik
             InitializeComponent();
             ComboBox_Priority.SelectedIndex = 2;
             task = new Task();
+
+            task.priority = ComboBox_Priority.SelectedIndex;
             btn_Submit.IsEnabled = false;
         }
 
@@ -35,7 +37,7 @@ namespace Planirovshik
         bool CheckIfCan()
         {
             bool temp = false;
-            if (Add_Name.Text.Length > 0 && Add_Desc.Text.Length > 0) temp = true;
+            if (Add_Name.Text.Length > 0 && Add_Desc.Text.Length > 0 && deadlineSet) temp = true;
 
             return temp;
         }
@@ -55,7 +57,10 @@ namespace Planirovshik
         private void ComboBox_Priority_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if(task != null)
-            task.priority = ComboBox_Priority.SelectedIndex;
+            {
+                task.priority = ComboBox_Priority.SelectedIndex;
+                MessageBox.Show(ComboBox_Priority.SelectedIndex.ToString());
+            }
         }
         bool deadlineSet = false;
         private void Date_Changed(object sender, SelectionChangedEventArgs e)
