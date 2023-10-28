@@ -59,7 +59,7 @@ namespace Planirovshik
             if(task != null)
             {
                 task.priority = ComboBox_Priority.SelectedIndex;
-                MessageBox.Show(ComboBox_Priority.SelectedIndex.ToString());
+                //MessageBox.Show(ComboBox_Priority.SelectedIndex.ToString());
             }
         }
         bool deadlineSet = false;

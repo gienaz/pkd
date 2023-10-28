@@ -50,8 +50,19 @@ namespace Planirovshik
             foreach(Task t in tasks)
             {
                 //////////////////
-                //this.listView.Items.Add(t.name);
+                this.listView.Items.Add(ConvertTaskToLine(t));
             }
+        }
+        Task ConvertTaskToLine(Task t)
+        {
+            Task taskkkk = new Task();
+
+            taskkkk.name = t.name;
+            taskkkk.description = t.description;
+            taskkkk.priorityString = GetPriority(t.priority);
+            taskkkk.deadline = t.deadline;
+
+            return taskkkk;
         }
         void SetFilesIntoList()
         {
@@ -70,13 +81,13 @@ namespace Planirovshik
             {
                 lines = File.ReadAllLines(filePath);
                 //MessageBox.Show(lines[0] + "\n" + lines[1] + "\n" + lines[2] + "\n" + lines[3]);
+                //t.status = false;
                 t.name = lines[0];
                 t.priority = Convert.ToInt32(lines[1]);
                 t.deadline = lines[2];
                 t.description = lines[3];
                 
 
-                t.status = false;//temporary
             }
             catch (Exception ex)
             {
@@ -156,22 +167,22 @@ namespace Planirovshik
 
     public class Task
     {
-        public bool status {  get; set; }
+        //public bool status {  get; set; }
         public string name {  get; set; }
+        public string deadline { get; set; }// = new DateTime(2008, 3, 1, 7, 0, 0);  Displays 01/03/2008 07:00:00
+        public string description { get; set; }
         public int priority { get; set; }
-            public string deadline { get; set; }// = new DateTime(2008, 3, 1, 7, 0, 0);  Displays 01/03/2008 07:00:00
-            public string description { get; set; }
-            public bool isCompleted { get; set; }
+        public string priorityString { get; set; }
+        public bool status { get; set; }  
 
             public Task newTask(string name, int priority, string deadline, string description, bool isCompleted)
-        {
-            Task task = new Task();
-            task.name = name;
-            task.priority = priority;
-            task.deadline = deadline;
-            task.description = description;
-            task.isCompleted = isCompleted;
-            return task;
-        }
+            {
+                Task task = new Task();
+                task.name = name;
+                task.priority = priority;
+                task.deadline = deadline;
+                task.description = description;
+                return task;
+            }
     }
 }
