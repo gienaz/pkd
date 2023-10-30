@@ -32,3 +32,6 @@ D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.g.resources
 D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.Properties.Resources.resources
 D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.GenerateResource.cache
 D:\NPK\pkd\pkd\Planirovshik\Planirovshik\obj\Debug\Planirovshik.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window3.baml
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window4.g.cs
+C:\Student\Петухов 121\pkd\Planirovshik\Planirovshik\obj\Debug\Window4.baml

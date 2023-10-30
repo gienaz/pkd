@@ -21,22 +21,23 @@
             <ListView.View>
                 <GridView>
 
-                    <GridViewColumn Header="status" Width="50">
+                    <GridViewColumn Header="Сделано" Width="50">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <CheckBox IsChecked="{Binding status, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="name" DisplayMemberBinding="{Binding name}" Width="100"/>
-                    <GridViewColumn Header="priority"  DisplayMemberBinding="{Binding priority}" Width="100"/>
-                    <GridViewColumn Header="deadline" DisplayMemberBinding="{Binding deadline}" Width="100"/>
-                    <GridViewColumn Header="description" DisplayMemberBinding="{Binding description}" />
+                    <GridViewColumn Header="Название" DisplayMemberBinding="{Binding name}" Width="100"/>
+                    <GridViewColumn Header="Приоритет"  DisplayMemberBinding="{Binding priorityString}" Width="100"/>
+                    <GridViewColumn Header="Сделать до" DisplayMemberBinding="{Binding deadline}" Width="100"/>
+                    <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding description}" />
                 </GridView>
             </ListView.View>
         </ListView>
         <Button x:Name="NewTask" Content="Добавить новую задачу" Grid.Row="0" Grid.Column="0" Click="NewTask_Click" Margin="5,19,5,19"/>
-        <Button x:Name="Refresh" Content="Обновить список" Grid.Row="0" Grid.Column="2" Click="Refresh_Click" Margin="5,19,5,19"/>
+        <Button x:Name="EditTask" Content="Изменить задачу" Grid.Row="0" Grid.Column="1" Click="EditTask_Click" Margin="5,19,5,19"/>
+        <Button x:Name="Delete" Content="Удалить задачу" Grid.Row="0" Grid.Column="2" Click="Delete_Click" Margin="5,19,5,19"/>
 
 
     </Grid>

@@ -25,7 +25,8 @@ namespace Planirovshik
         string savePath;
 
         Task task;
-        List<Task> tasks;
+        public static List<Task> tasks;
+        public static int selectedTask = 0;
         public MainWindow()
         {
             savePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\TaskHolder\\";
@@ -41,10 +42,41 @@ namespace Planirovshik
         }
 
         //////////
+        ///Editing
+        
+        private void EditTask_Click(object sender, RoutedEventArgs e)
+        {
+            if (listView.SelectedIndex < 0 || listView.SelectedIndex >= tasks.Count)
+            {
+                MessageBox.Show("Выберите задачу!");
+            }
+            else
+            {
+                selectedTask = listView.SelectedIndex;
+                var w = new Window4();
+                if (w.ShowDialog() == true)
+                {
+                    task = w.Dialogue;
+                    DeleteTask(tasks[selectedTask]);
+                    AddTaskToList(task);
+                }
+            }
+        }
+
+        void DeleteTask(Task t)
+        {
+            File.Delete(savePath + t.name + ".txt");
+            RefreshList();
+        }
+
+        //////////
         ///Setting tasks in the table <summary>
         
         void RefreshList()
         {
+            tasks.Clear();
+            SetFilesIntoList();
+
             listView.Items.Clear();
 
             foreach(Task t in tasks)
@@ -52,6 +84,7 @@ namespace Planirovshik
                 //////////////////
                 this.listView.Items.Add(ConvertTaskToLine(t));
             }
+            selectedTask = tasks.Count - 1;
         }
         Task ConvertTaskToLine(Task t)
         {
@@ -75,10 +108,10 @@ namespace Planirovshik
         }
         Task CreateTaskFromFile(string filePath)
         {
-            string[] lines = null;
             Task t = new Task();
             try
             {
+                string[] lines = new string[4];
                 lines = File.ReadAllLines(filePath);
                 //MessageBox.Show(lines[0] + "\n" + lines[1] + "\n" + lines[2] + "\n" + lines[3]);
                 //t.status = false;
@@ -94,7 +127,7 @@ namespace Planirovshik
                 MessageBox.Show(ex.Message);
             }
 
-            return new Task();
+            return t;
         }
 
 
@@ -121,8 +154,8 @@ namespace Planirovshik
                 };
 
             tasks.Add(task);
-            RefreshList();
             SaveTask(taskProperties);
+            RefreshList();
         }
 
         void SaveTask(string[] properties)
@@ -145,7 +178,7 @@ namespace Planirovshik
                     }
                     File.WriteAllLines(savePath + task.name + ".txt", properties);
             }
-            MessageBox.Show("Task saved!");
+            MessageBox.Show("Задача сохранена!");
         }
 
         string GetPriority(int i)
@@ -157,10 +190,19 @@ namespace Planirovshik
             return s;
         }
 
-        private void Refresh_Click(object sender, RoutedEventArgs e)
+        private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            RefreshList();
+            if(listView.SelectedIndex < 0 || listView.SelectedIndex >= tasks.Count)
+            {
+                MessageBox.Show("Выберите задачу!");
+            }
+            else
+            {
+                DeleteTask(tasks[listView.SelectedIndex]);
+                RefreshList();
+            }
         }
+
     }
 
 

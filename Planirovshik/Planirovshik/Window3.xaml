@@ -1,0 +1,42 @@
+﻿<Window x:Class="Planirovshik.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Planirovshik"
+        mc:Ignorable="d"
+        Title="Edit Task" Height="450" Width="350">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Margin="0 10 0 0" HorizontalAlignment="Center">Название задачи</Label>
+        <TextBox x:Name="Add_Name" Grid.Row="0" Grid.Column="1" TextChanged="Add_Name_TextChanged"/>
+
+        <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Margin="0 10 0 0" HorizontalAlignment="Center">Приоритет</Label>
+        <ComboBox x:Name="ComboBox_Priority" Grid.Column="1" Grid.Row="1" IsEditable="True" SelectionChanged="ComboBox_Priority_SelectionChanged">
+            <ComboBoxItem>Срочно</ComboBoxItem>
+            <ComboBoxItem>Второстепенно</ComboBoxItem>
+            <ComboBoxItem>Не срочно</ComboBoxItem>
+        </ComboBox>
+
+        <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Top" Margin="0 10 0 0" HorizontalAlignment="Center">Выполнить до:</Label>
+        <DatePicker x:Name="Date" SelectedDateChanged="Date_Changed" Grid.Column="1" Grid.Row="2" FirstDayOfWeek="Monday" IsTodayHighlighted="False"/>
+
+        <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Top" Margin="0 10 0 0" HorizontalAlignment="Center">Описание задачи</Label>
+        <TextBox x:Name="Add_Desc" Grid.Row="3" Grid.Column="1" TextChanged="Add_Desc_TextChanged"/>
+
+        <Button x:Name="btn_Cancel" IsCancel="True" Content="Отмена" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0" VerticalAlignment="Bottom" Margin="0 0 0 20" Width="94" Height="23" Click="btn_Cancel_Click"/>
+        <Button x:Name="btn_Submit" IsDefault="True" Content="Подтвердить" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" VerticalAlignment="Bottom" Margin="0 0 0 20" Width="170" Height="23" Click="btn_Submit_Click"/>
+    </Grid>
+</Window>
