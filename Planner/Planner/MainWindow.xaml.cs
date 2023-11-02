@@ -42,10 +42,10 @@ namespace Planner
             currentMonth = Convert.ToInt32(DateTime.Now.ToString("MM"));
             currentYear = DateTime.Now.Year;
 
-            DayButtons = new Button[7,7];
-            for (int i = 0; i < 7; i++)
+            DayButtons = new Button[7,6];
+            for (int i = 0; i < DayButtons.GetLength(0); i++)
             {
-                for (int j = 0; i < 7; i++)
+                for (int j = 0; j < DayButtons.GetLength(1); j++)
                 {
                     DayButtons[i, j] = (Button)CalendarGrid.FindName("btn_" + GetDayOfMonth(i) + "_" + j);
                 }
@@ -60,18 +60,29 @@ namespace Planner
             txt_Year.Content = currentYear.ToString() + " г.";
             countingDays = 1;
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < DayButtons.GetLength(0); i++)
             {
-                for (int j = 0; i < 7; i++)
+                for (int j = 0; j < DayButtons.GetLength(1); j++)
                 {
                     DayButtons[i, j].Content = SetDaysInMonth(i, j);
+
+                    if (IsButtonInThisMonth(i, j))
+                    {
+                        DayButtons[i,j].IsEnabled = true;
+                        DayButtons[i,j].Background = Brushes.Bisque;
+                    }
+                    else
+                    {
+                        DayButtons[i,j].IsEnabled = false;
+                        DayButtons[i,j].Background = Brushes.DarkGray;
+                    }
                 }
             }
 
         }
 
 
-            int countingDays = 1;
+        int countingDays = 1;
         int SetDaysInMonth(int i, int j)
         {
             DateTime dateFirst = new DateTime(currentYear, currentMonth, 1);
@@ -80,13 +91,13 @@ namespace Planner
             int lastDayOfWeek = (int)dateFirst.DayOfWeek;
 
 
-            if ( j == 0 && i < firstDayOfWeek)
+            if ( j == 0 && i < firstDayOfWeek-1)
             {
-                return 0;
+                return DateTime.DaysInMonth(currentYear, PrevMonth(currentMonth));
             }
-            else if( j == 7 && i > lastDayOfWeek)
+            else if( j == 6 && i > lastDayOfWeek)
             {
-                return 0;
+                return DateTime.DaysInMonth(currentYear, NextMonth(currentMonth));
             }
             else
             {
@@ -94,6 +105,52 @@ namespace Planner
                 return countingDays - 1;
             }
 
+        }
+
+        bool IsButtonInThisMonth(int i, int j)
+        {
+            DateTime dateFirst = new DateTime(currentYear, currentMonth, 1);
+            int firstDayOfWeek = (int)dateFirst.DayOfWeek;
+            dateFirst = new DateTime(currentYear, currentMonth, daysInMonth);
+            int lastDayOfWeek = (int)dateFirst.DayOfWeek;
+
+            if (j == 0 && i < firstDayOfWeek - 1)
+            {
+                return false;
+            }
+            else if (j == 6 && i > lastDayOfWeek + 1)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        int NextMonth(int month)
+        {
+            month++;
+            if(month > 12)
+            {
+                return 1;
+            }
+            else
+            {
+                return month;
+            }
+        }
+        int PrevMonth(int month)
+        {
+            month--;
+            if (month < 1)
+            {
+                return 12;
+            }
+            else
+            {
+                return month;
+            }
         }
         string GetDayOfMonth(int d)
         {
