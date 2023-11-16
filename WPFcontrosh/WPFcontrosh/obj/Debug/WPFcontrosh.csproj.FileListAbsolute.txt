@@ -1,0 +1,15 @@
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\MainWindow.g.cs
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\App.g.cs
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh_MarkupCompile.cache
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh_MarkupCompile.lref
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\bin\Debug\WPFcontrosh.exe.config
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\bin\Debug\WPFcontrosh.exe
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\bin\Debug\WPFcontrosh.pdb
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\MainWindow.baml
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.g.resources
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.exe
+C:\Student\Петухов 121\pkd\WPFcontrosh\WPFcontrosh\obj\Debug\WPFcontrosh.pdb

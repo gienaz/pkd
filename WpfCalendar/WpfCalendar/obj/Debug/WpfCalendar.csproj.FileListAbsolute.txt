@@ -1,0 +1,16 @@
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\bin\Debug\WpfCalendar.exe.config
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\bin\Debug\WpfCalendar.exe
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\bin\Debug\WpfCalendar.pdb
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.csproj.AssemblyReference.cache
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\MainWindow.g.cs
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\App.g.cs
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar_MarkupCompile.cache
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar_MarkupCompile.lref
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\MainWindow.baml
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.g.resources
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.Properties.Resources.resources
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.csproj.GenerateResource.cache
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.csproj.CoreCompileInputs.cache
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.exe
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\WpfCalendar.pdb
+C:\Student\Петухов 121\pkd\WpfCalendar\WpfCalendar\obj\Debug\App.baml
